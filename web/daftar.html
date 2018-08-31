@@ -47,7 +47,7 @@
                 padding: 20px;
                 width: 85%;
                 background-color: white;
-                height: 300px; /* only for demonstration, should be removed */
+                height: 200px; /* only for demonstration, should be removed */
             }
 
             /* Clear floats after the columns */
@@ -59,8 +59,8 @@
 
             /* Style the footer */
             footer {
-                background-color: graytext;
-                padding: 10px;
+                background-color: brown;
+                padding: 7px;
                 text-align: center;
                 color: white;
             }
@@ -76,10 +76,8 @@
     </head>
     <body>
 
-
-
         <header>
-            <h2> RUMAH SAKITKU </h2>
+            <h2><marquee> RUMAH SAKITKU </marquee></h2>
         </header>
 
         <section>
@@ -91,26 +89,31 @@
             </nav>
 
             <article>
+                <form method="post" action="proses.php">
+                    <table border="0">
+
                 <h1> PENDAFTARAN </h1>
+               
+                    <div> <tr><td>Nama</td>
+                            <td>:</td>
+                            <td><input type="text" size="50"></td>
+                        </tr> </div>
 
-                <div> <tr><td>Nama</td>
-                    <td>:</td>
-                    <td><input type="text" size="50"></td>
-                    </tr> </div>
-                
-                <div>  <tr><td>Alamat</td>
-                    <td>:</td>
-                    <td><input type="text" size="50"></td>
-                    </tr> </div>
-                
-                <div>   <tr><td>Tanggal Lahir</td>
-                    <td>:</td>
-                    <td><input type="text" size="2">/
-                        <input type="text" size="2">/
-                        <input type="text" size="2"> (hh/bb/tttt)</td>
-                    </tr> </div>
+                    <div>  <tr><td>Alamat</td>
+                            <td>:</td>
+                            <td><input type="text" size="50"></td>
+                        </tr> </div>
 
-                <button> Simpan </button>
+                    <div>   <tr><td>Tanggal Lahir</td>
+                            <td>:</td>
+                            <td><input type="text" size="2">/
+                                <input type="text" size="2">/
+                                <input type="text" size="2"> (hh/bb/tttt)</td>
+                        </tr> </div>
+                    </table> 
+                    
+                    <div><button> <a href="http://202.94.83.190/~165314056/index.html"> Simpan </a></div></button>
+                   
             </article>
         </section>
 
